@@ -14,8 +14,8 @@
             filePath = "iTunesSearch/Model Controllers/SearchResultController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "performSearch(searchTerm:resultType:completion:)"
             landmarkType = "7">
             <Actions>
@@ -26,6 +26,60 @@
                   </ActionContent>
                </BreakpointActionProxy>
             </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC469D76-BB02-4D17-BE1A-1A2CF50418B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "iTunesSearch/View Controllers/SearchResultsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "makeSearch()"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.Sound">
+                  <ActionContent
+                     soundName = "Tink">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  uuid = "FC469D76-BB02-4D17-BE1A-1A2CF50418B3 - d371c0fd9ec87277"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iTunesSearch.SearchResultsTableViewController.makeSearch() -&gt; ()"
+                  moduleName = "iTunesSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlose.alvarez-berrios/Desktop/iOS%20Lambda/Projects/ios-itunes-search/iTunesSearch/iTunesSearch/View%20Controllers/SearchResultsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76">
+               </Location>
+               <Location
+                  uuid = "FC469D76-BB02-4D17-BE1A-1A2CF50418B3 - be97fdc3667febd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in iTunesSearch.SearchResultsTableViewController.makeSearch() -&gt; ()"
+                  moduleName = "iTunesSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlose.alvarez-berrios/Desktop/iOS%20Lambda/Projects/ios-itunes-search/iTunesSearch/iTunesSearch/View%20Controllers/SearchResultsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
