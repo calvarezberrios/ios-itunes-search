@@ -10,7 +10,7 @@
             uuid = "70E02A80-0948-4E05-BB54-4B2F1B0137EE"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
-            continueAfterRunningActions = "No"
+            continueAfterRunningActions = "Yes"
             filePath = "iTunesSearch/Model Controllers/SearchResultController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
