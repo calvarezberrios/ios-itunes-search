@@ -27,8 +27,9 @@ final class SearchResultController {
         task?.cancel()
         
         var urlComponents = URLComponents(url: searchURL, resolvingAgainstBaseURL: true)
-        var searchQueryItems = URLQueryItem(name: "term", value: searchTerm)
-        urlComponents?.queryItems = [searchQueryItems]
+        let searchQueryItem = URLQueryItem(name: "term", value: searchTerm)
+        let resultTypeQueryItem = URLQueryItem(name: "entity", value: resultType.rawValue)
+        urlComponents?.queryItems = [searchQueryItem, resultTypeQueryItem]
         
         guard let requestURL = urlComponents?.url else {
             let error = NSError(domain: "com.emanicomputers.iTunesSearch", code: NSURLErrorBadURL, userInfo: [NSLocalizedDescriptionKey: "Request URL  is nil"])
@@ -36,7 +37,7 @@ final class SearchResultController {
             return
         }
         
-        var request = URLRequest(url: requestURL) // HttpMethod is get by default
+        let request = URLRequest(url: requestURL) // HttpMethod is get by default
         
         task = URLSession.shared.dataTask(with: request) { [weak self] data, _, error in
             if let error = error {
